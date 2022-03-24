@@ -13,6 +13,9 @@ public class Getter : MonoBehaviour
     public float coolDownTime = 0.1f;
 
     Spawner sp;
+    public GameObject currentParticle;
+
+    public bool pause;
 
     void Start()
     {
@@ -29,7 +32,7 @@ public class Getter : MonoBehaviour
 
         int temp = currentSprite;
 
-        if(!sp.gameOver && Input.GetKeyDown(KeyCode.Mouse0))
+        if(!sp.gameOver && Input.GetKeyDown(KeyCode.Mouse0) && !pause)
         {
             Vector3 yo = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -67,5 +70,11 @@ public class Getter : MonoBehaviour
         transform.position = tempo;
 
         transform.localScale *= 2;
+    }
+
+
+    public void PlayParticle()
+    {
+        Instantiate(currentParticle, transform);
     }
 }

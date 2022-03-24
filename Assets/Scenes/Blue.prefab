@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1904865276452601519
+--- !u!1 &5476978649812352726
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,36 +8,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 838616200276503133}
-  - component: {fileID: 5861404980264072133}
+  - component: {fileID: 9014166365799821586}
+  - component: {fileID: 3351266195254250961}
   m_Layer: 0
-  m_Name: Square
+  m_Name: heart box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &838616200276503133
+--- !u!4 &9014166365799821586
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904865276452601519}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.003, y: 0.1286, z: 0}
-  m_LocalScale: {x: 0.024256216, y: 0.023015495, z: 1}
+  m_GameObject: {fileID: 5476978649812352726}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0044, y: 0.0044, z: 0}
+  m_LocalScale: {x: 0.9734601, y: 0.9734601, z: 1.9469202}
   m_Children: []
   m_Father: {fileID: 4190934191958949555}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5861404980264072133
+--- !u!212 &3351266195254250961
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904865276452601519}
+  m_GameObject: {fileID: 5476978649812352726}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -71,12 +71,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d6abaafffdfb507408bc960b3b307894, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcd83a84637313b499f6ea6a7fca9935, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.03, y: 1.03}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -111,7 +111,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
-  - {fileID: 838616200276503133}
+  - {fileID: 9014166365799821586}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -179,3 +179,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  bodleDao: {fileID: 21300000, guid: a8e78116b394fa847b9198a43f6edaee, type: 3}
+  thisParticle: {fileID: 5302100332939244187, guid: 6312b3d4923bd8d4aac79137542711fc, type: 3}
+  otherParticle: {fileID: 3880805029849884635, guid: d0196f177fa73064fa979d6574afcee8, type: 3}
