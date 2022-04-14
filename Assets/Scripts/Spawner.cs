@@ -47,6 +47,8 @@ public class Spawner : MonoBehaviour
 
     Getter gttt;
 
+    public GameObject menu;
+
     void Start()
     {
         GetData();
@@ -106,6 +108,9 @@ public class Spawner : MonoBehaviour
 
     private void Update()
     {
+        if (menu.activeSelf) transform.position = new Vector3(0, 1, 0);
+        else transform.position = new Vector3(0, 8, 0);
+
         scoreInOpt.text = highScore.ToString();
 
         CheckGameOver();

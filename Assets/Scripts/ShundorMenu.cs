@@ -15,6 +15,7 @@ public class ShundorMenu : MonoBehaviour
 
     public void khel()
     {
+        sp.transform.position = new Vector3(0, 1, 0);
         Instantiate(brishti, sp.transform);
     }
 }

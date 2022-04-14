@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 5476978649812352726}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0044, y: 0.0044, z: 0}
-  m_LocalScale: {x: 0.9734601, y: 0.9734601, z: 1.9469202}
+  m_LocalScale: {x: 0.36197257, y: 0.36197257, z: 1.9469202}
   m_Children: []
   m_Father: {fileID: 4190934191958949555}
   m_RootOrder: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bcd83a84637313b499f6ea6a7fca9935, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 031f77bb1c1062847934d8393ff7dee9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -179,6 +179,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  bodleDao: {fileID: 21300000, guid: a8e78116b394fa847b9198a43f6edaee, type: 3}
+  bodleDao: {fileID: 21300000, guid: ca37e7dd444dee84b830532346776aec, type: 3}
   thisParticle: {fileID: 5302100332939244187, guid: 6312b3d4923bd8d4aac79137542711fc, type: 3}
   otherParticle: {fileID: 3880805029849884635, guid: d0196f177fa73064fa979d6574afcee8, type: 3}
